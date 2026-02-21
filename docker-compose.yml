@@ -21,7 +21,7 @@ services:
       retries: 10
 
   backend:
-    image: kaanakkoyun/chat-backend:latest
+    image: kaanak/tryagain:latest
     container_name: chat-backend
     restart: always
     depends_on:
@@ -36,3 +36,5 @@ services:
 
 volumes:
   mysql-data:
+
+# kaanakkoyun/chat-backend:latest
